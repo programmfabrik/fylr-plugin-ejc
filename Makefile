@@ -1,3 +1,5 @@
+ZIP_NAME ?= "ejc.zip"
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
@@ -11,4 +13,4 @@ clean: ## clean
 	rm -rf build
 
 zip: all ## build zip file
-	cd build && zip ejc.zip -r ejc/
+	cd build && zip ${ZIP_NAME} -r ejc/
