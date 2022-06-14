@@ -9,6 +9,22 @@ plugin:
 base_config:
   - name: prefs
     parameters:
-      viewsets:
+      user:
         type: json
         position: 0
+      viewsets:
+        type: json
+        position: 1
+      modules:
+        type: json
+        position: 2
+      schedulerjobs:
+        type: json
+        position: 3
+      metadatatemplates:
+        type: json
+        position: 4
+      workflows:
+        type: json
+        position: 5
+
