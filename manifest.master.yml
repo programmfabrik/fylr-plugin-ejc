@@ -30,4 +30,7 @@ base_config:
       plugins:
         type: json
         position: 6
+      assetactions:
+        type: json
+        position: 7
 
