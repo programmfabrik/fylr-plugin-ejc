@@ -33,4 +33,8 @@ base_config:
       assetactions:
         type: json
         position: 7
+      queries:
+        type: json
+        position: 8
+
 
