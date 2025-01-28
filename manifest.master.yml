@@ -1,10 +1,10 @@
 plugin:
-  name: ejc
+  name: fjc
   version: "1"
-  l10n: l10n/ejc-loca.csv
+  l10n: l10n/fjc-loca.csv
   displayname:
-    de-DE: EJC Support Plugin
-    en-US: EJC Support Plugin
+    de-DE: FJC Support Plugin
+    en-US: FJC Support Plugin
 
 base_config:
   - name: prefs
@@ -36,5 +36,3 @@ base_config:
       queries:
         type: json
         position: 8
-
-
